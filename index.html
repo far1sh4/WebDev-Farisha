@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Personal</title>
+    <style>
+        table,th,td{
+          border: 1px solid black;
+          border-collapse: collapse;
+          /* background-color: lightskyblue; */
+          width:auto;
+          text-align: center;
+        }
+        th{
+          background-color:rgb(127, 179, 209);
+        }
+        td{
+          background-color:rgb(195, 222, 231);
+        }
+    </style>
 </head>
 <body>
-      <h1 style="background-color:yellow; color:green" align="center">INTRODUCTION</h1>
+      <h1 style="background-color:rgb(255, 132, 132); color:rgb(5, 18, 100)" align="center">INTRODUCTION</h1>
   <img src="sp.jpg" alt="Tom Holland as Spiderman" width="300" height="300" style="display: block;margin-left: auto;margin-right:auto;">
      <p style="color:darkblue">I love Tom Holland and I love spiderman. </p> 
   <p style="color:darkblue">Hello, my name is Farisha. </p> 
@@ -33,5 +48,40 @@
     <li>Ms. Dhona</li>
     <li>Mr. Dzuhri</li>
   </ul>  
+
+   <!-- This is for table -->
+  
+   <h4 style="color:rgb(126, 133, 229)">TOP 2 University Dreams</h4>
+  <table>
+    <!-- rows untuk header -->
+     <tr>
+      <th>No</th>
+      <th>University</th>
+      <th colspan="2">Location</th>
+      <th>Major</th>
+      <th>Link</th>
+     </tr>
+     <!-- rows untuk data -->
+      <tr>
+        <td>1</td>
+        <td>UI</td>
+        <td>Depok</td>
+        <td>Indonesia</td>
+        <td rowspan="2">Medicine</td>
+        <td>
+          <a href="https://www.ui.ac.id/" target="_blank">Click this</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>UoE</td>
+        <td>Edinburgh</td>
+        <td>Scotland</td>
+        <td>
+          <a href="https://www.ed.ac.uk/" target="_blank">Click this</a>
+        </td>
+      </tr>
+  </table>
 </body>
 </html>
