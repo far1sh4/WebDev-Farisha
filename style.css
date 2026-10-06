@@ -1,16 +1,16 @@
-.title{
+/* .title{
     font-style: normal;
     font-weight: bold;
     color: cornflowerblue;
     background-color: rgb(245, 235, 222);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    box-shadow: 3px 5px 10px black;
+    box-shadow: 3px 5px 10px black; */
     /* 3px untuk offset-x (koordinat x)
     5px untuk koordinat y: 
     10px untuk blur */
-}
-p{
+/* } */
+/* p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
     font-style: italic;
@@ -21,5 +21,61 @@ p{
 .section{
     margin-bottom: 20px;
     /* ini untuk jarak batas bawah dengan next section */
-    box-shadow: 3px 5px 10px grey;
+   /* box-shadow: 3px 5px 10px grey; */
+
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color:azure;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.foto-profil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid lightblue;
+}
+
+.Nama {
+    color: coral;
+    margin: 15px 0 5px 0;
+}
+
+.State {
+    color: burlywood;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.Bio {
+    color: darkgrey;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.Contact {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(81, 79, 194);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
 }
