@@ -1,0 +1,25 @@
+.title{
+    font-style: normal;
+    font-weight: bold;
+    color: cornflowerblue;
+    background-color: rgb(245, 235, 222);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    box-shadow: 3px 5px 10px black;
+    /* 3px untuk offset-x (koordinat x)
+    5px untuk koordinat y: 
+    10px untuk blur */
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-style: italic;
+    color: rgb(82, 111, 165);
+
+}
+
+.section{
+    margin-bottom: 20px;
+    /* ini untuk jarak batas bawah dengan next section */
+    box-shadow: 3px 5px 10px grey;
+}
